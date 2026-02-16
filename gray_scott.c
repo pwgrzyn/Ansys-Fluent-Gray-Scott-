@@ -1,7 +1,7 @@
 #include "udf.h"
 
-#define F_RATE 0.055 //feedrate adding u to the cell
-#define K_RATE 0.062 //killrate substracting v from the cell with reaction V->P 
+#define F_RATE 0.062 //feedrate adding u to the cell
+#define K_RATE 0.061 //killrate substracting v from the cell with reaction V->P 
 #define DIFF_U 2e-8
 #define DIFF_V 1e-8
 
@@ -56,10 +56,10 @@ DEFINE_INIT(init_gray_scott, d)
             C_UDSI(c, t, 0) = 1.0;
             C_UDSI(c, t, 1) = 0.0;
 
-         //this is roughly middle of the square
+         
            //if ((x[0] > 0.014 && x[0] < 0.028 && x[1] > 0.014 && x[1] < 0.028) || (x[0] < -0.014 && x[0] > -0.028 && x[1] < -0.014 && x[1] > -0.028) )
-           //if(x[0]>-0.014 && x[0]<0.014 && x[1]>-0.014 && x[1]<0.014)
-           if( x[0]>-0.004 && x[0]<0.004 && x[1]>-0.004 && x[1]<0.004 )
+          // if(x[0]>-0.007 && x[0]<0.007 && x[1]>-0.007 && x[1]<0.007)
+          if( (x[0]>-0.014 && x[0]<-0.004 && x[1]>0.004 && x[1]<0.014 ) || (x[0]>0.007 && x[0]<0.018 && x[1]>-0.022 && x[1]<-0.016 ))
 {
     C_UDSI(c, t, 0) = 0.50;
     C_UDSI(c, t, 1) = 0.25;
