@@ -1,5 +1,5 @@
 # Ansys-Fluent-Gray-Scott-
-Simulation of Turing instability using Ansys fluent
+Simulation of Turing instability using Ansys fluent on a Square(where left and right border are connected and upper and lower aswell)
 
 ## How To Set this up in Ansys Student 2025
 1. Create new Ansys Fluent project
@@ -20,11 +20,11 @@ In short, this phenomenon occurs when a system is stable without diffusion but b
 This model can reproduce patterns similar to those observed on animal skin or fur. For some parameters, the resulting patterns clearly resemble those naturally occurring on animal coats.
 
 
-## Some pictures
+## Simulation Results
 <img src="imgfiles/gs3861.png" alt="Pattern formation" width="400"> **Parameters:** F = 0.038, K = 0.061 <img src="imgfiles/gs5562.png" alt="Pattern formation" width="400"> **Parameters:** F = 0.055, K = 0.062
 
 These pictures were taken when the system was almost stabilized.
-Changes in the patterns were minimal, which is the desirable effect. Most of the pattern formation on skin or fur occurs during embryo development, and later changes are very small. The initial conditions for those pictures were different. For very non symmetric patterns i suggest setting the v-substance concentration at random.
+Changes in the patterns were minimal, which is the desirable effect. Most of the pattern formation on skin or fur occurs during embryo development, and later changes are very small. The initial conditions for those pictures were different. For very non symmetric patterns i suggest setting the v-substance concentration at random. Also it is worth noticing that often patterns that occur during the process are way more interesting that the final results.
 
 
 ## Some more information
