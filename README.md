@@ -13,8 +13,12 @@ Simulation of Turing instability using Ansys fluent
 
 ## What is Turing instability?
 Turing instability is a biological phenomenon that can be explored in systems of reaction-diffusion equations. You can read more about it in my 2024 conference poster (in Polish) below:
-[Click Here](imgfiles/poster.pdf)
-
+[Poster Poznań 2024](imgfiles/poster.pdf)
+(Simulations in the poster were made using different methods from those used here)
 In short, this phenomenon occurs when a system is stable without diffusion but becomes unstable when diffusion is included. For certain sets of parameters, it leads to the formation of spatial patterns.
 
 This model can reproduce patterns similar to those observed on animal skin or fur. For some parameters, the resulting patterns clearly resemble those naturally occurring on animal coats.
+
+
+## Some pictures
+![Pattern for F=0.038, K-0.061](imgfiles/gs3861.png)
