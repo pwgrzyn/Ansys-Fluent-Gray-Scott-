@@ -21,5 +21,10 @@ This model can reproduce patterns similar to those observed on animal skin or fu
 
 
 ## Some pictures
-![Pattern for F=0.038, K-0.061](imgfiles/gs3861.png)
 <img src="imgfiles/gs3861.png" alt="Pattern formation" width="400">
+Picture of the system for parameters F=0.038 and K=0.061
+<img src="imgfiles/gs5562.png" alt="Pattern formation" width="400">
+Picture of the system for parameters F=0.055 and K=0.062
+
+
+The pictures were taken when the system was almost stabilized the changes were almost nonexistence which is desirable effect most of changes of patterns on the skin or fur are made during the time of embryo shaping later on the changes are very small.
