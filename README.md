@@ -1,6 +1,9 @@
 # Ansys-Fluent-Gray-Scott-
 Simulation of Turing instability using Ansys fluent on a Square(where left and right border are connected and upper and lower aswell)
 
+## Gray-Scott Model
+Gray-Scott Model is a system of two partial differential equations i.e reaction-diffusion equations of the form:
+
 $$
 \begin{aligned}
 \frac{\partial u}{\partial t} &= D_u \nabla^2 u - uv^2 + F(1-u) \\
