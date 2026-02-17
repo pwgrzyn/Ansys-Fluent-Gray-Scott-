@@ -13,7 +13,7 @@ $$
 
 ## How To Set this up in Ansys Student 2025
 1. Create new Ansys Fluent project
-2. Head up straight to Setup cell and open it
+2. Straight up open Setup
 3. Import file Setup.cas.h5 using Case import in Fluent. Setup.cas.h5 file contains information about mesh and all solver settings that are needed to solve the Reaction-Diffusion system for 2 scalars.
 4. Head to User-Defined tab and add gray_scott.c file as compiled build using libudf and load. Check if udf_init is present in function hooks tab.
 5. Initialize the initial conditions and use contours of u or v(in Results tab on the left side) to verify whether the initialization is correct.
