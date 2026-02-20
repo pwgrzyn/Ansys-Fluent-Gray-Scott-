@@ -47,8 +47,7 @@ About parameters which generate interesting spatial patterns you can read [Here]
 There are more reaction diffusion systems however Gray-Scott is quite popular it is not easy to find parameters to create interesing patterns in other models. In order to change model you need to update source terms in the file gray_scott.c
 
 ## Spiral-Waves model
-Mathematical model of nonlinear oscilator. Levels of u and v here describe deviations from the stationarity. Read more about in Mathematical Biology
-II: Spatial Models and Biomedical Applications Third Edition by J.D. Murray or [Here](https://en.wikipedia.org/wiki/Belousov%E2%80%93Zhabotinsky_reaction). The model is of form:
+Mathematical model of nonlinear oscilator. Levels of u and v here describe deviations from the stationarity. The model is of form:
 
 $$
 \begin{aligned}
@@ -66,3 +65,7 @@ After time T=500
 
 <img src="imgfiles/spiralwaves.png" alt="Pattern formation112" width="400">
 
+## Read More
+Mathematical Biology II: Spatial Models and Biomedical Applications Third Edition by J.D. Murray Chapter I
+
+About Zhabotinsky Reaction read [Here](https://en.wikipedia.org/wiki/Belousov%E2%80%93Zhabotinsky_reaction) also you can find some example videos on youtube
