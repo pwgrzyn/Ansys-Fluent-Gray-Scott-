@@ -1,5 +1,5 @@
 # Ansys-Fluent-Reaction-Diffusion
-Simulation of Turing instability using Ansys fluent on a Square(where left and right border are connected and upper and lower aswell)
+Simulation of Turing instability using Ansys fluent on a square with periodic boundaries.
 
 ## How To Set this up in Ansys Student 2025
 1. Create new Ansys Fluent project
